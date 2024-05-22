@@ -13,9 +13,7 @@ const fibs = (n) => {
 }
 
 const fibsRec = (n) => {
-    if (n <= 2) {
-        return 1;
-    }
+    if (n <= 2) return 1;
     return fibsRec(n - 2) + fibsRec(n - 1);
 }
 
