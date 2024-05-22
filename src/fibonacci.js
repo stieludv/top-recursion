@@ -33,3 +33,9 @@ console.log(fibsRec(8));
 console.log(fibsRec(40));
 
 */
+
+
+module.exports = {
+    iterative: fibs,
+    recursive: fibsRec,
+}
