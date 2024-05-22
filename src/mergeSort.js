@@ -17,4 +17,6 @@ const merge = (leftArr, rightArr) => {
     return [...sortedArr, ...leftArr, ...rightArr];
 }
 
-module.export = mergeSort;
+module.exports = {
+    mergeSort,
+}
