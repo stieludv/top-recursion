@@ -17,9 +17,19 @@ const fibsRec = (n) => {
     return fibsRec(n - 2) + fibsRec(n - 1);
 }
 
+/*
+
 console.log(fibs(7));
 console.log(fibs(37));
+console.log(fibs(8));
+console.log(fibs(60));
+console.log(fibs(40));
 
 console.log(fibsRec(7));
 console.log(fibsRec(37));
+console.log(fibsRec(8));
+// Too slow for 60 lol
+// console.log(fibsRec(60));
+console.log(fibsRec(40));
 
+*/
